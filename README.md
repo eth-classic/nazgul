@@ -13,7 +13,7 @@
          ░       ░  ░  ░ ░          ░    ░         ░  ░
                      ░                                 
 ```
-A temporary Atlantis-enabled, fucking Proof-of-Work testnet for Ethereum Classic powered by [Whiteblock](github.com/whiteblock).
+A temporary Atlantis-enabled, fucking Proof-of-Work testnet for Ethereum Classic powered by [Whiteblock](www.whiteblock.io).
 
 Atlantis Hardfork: `0`
 
