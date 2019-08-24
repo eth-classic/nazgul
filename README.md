@@ -1,19 +1,26 @@
-# Nazgul testnet
+# The Nazgul Testnet
 
 [![Join the chat at https://gitter.im/eth-classic/nazgul](https://badges.gitter.im/eth-classic/nazgul.svg)](https://gitter.im/eth-classic/nazgul?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```bash
- ███▄    █  ▄▄▄      ▒███████▒  ▄████  █    ██  ██▓    
- ██ ▀█   █ ▒████▄    ▒ ▒ ▒ ▄▀░ ██▒ ▀█▒ ██  ▓██▒▓██▒    
-▓██  ▀█ ██▒▒██  ▀█▄  ░ ▒ ▄▀▒░ ▒██░▄▄▄░▓██  ▒██░▒██░    
-▓██▒  ▐▌██▒░██▄▄▄▄██   ▄▀▒   ░░▓█  ██▓▓▓█  ░██░▒██░    
-▒██░   ▓██░ ▓█   ▓██▒▒███████▒░▒▓███▀▒▒▒█████▓ ░██████▒
-░ ▒░   ▒ ▒  ▒▒   ▓▒█░░▒▒ ▓░▒░▒ ░▒   ▒ ░▒▓▒ ▒ ▒ ░ ▒░▓  ░
-░ ░░   ░ ▒░  ▒   ▒▒ ░░░▒ ▒ ░ ▒  ░   ░ ░░▒░ ░ ░ ░ ░ ▒  ░
-   ░   ░ ░   ░   ▒   ░ ░ ░ ░ ░░ ░   ░  ░░░ ░ ░   ░ ░   
-         ░       ░  ░  ░ ░          ░    ░         ░  ░
-                     ░                                 
+            ______               ███▄    █  ▄▄▄      ▒███████▒  ▄████  █    ██  ██▓    
+       .d$$$******$$$$c.         ██ ▀█   █ ▒████▄    ▒ ▒ ▒ ▄▀░ ██▒ ▀█▒ ██  ▓██▒▓██▒    
+    .d$P"            "$$c        ▓██  ▀█ ██▒▒██  ▀█▄  ░ ▒ ▄▀▒░ ▒██░▄▄▄░▓██  ▒██░▒██░   
+   $$$$$.           .$$$*$.      ▓██▒  ▐▌██▒░██▄▄▄▄██   ▄▀▒   ░░▓█  ██▓▓▓█  ░██░▒██░    
+ .$$ 4$L*$$.     .$$Pd$  '$b     ▒██░   ▓██░ ▓█   ▓██▒▒███████▒░▒▓███▀▒▒▒█████▓ ░██████▒
+ $F   *$. "$$e.e$$" 4$F   ^$b    ░ ▒░   ▒ ▒  ▒▒   ▓▒█░░▒▒ ▓░▒░▒ ░▒   ▒ ░▒▓▒ ▒ ▒ ░ ▒░▓  ░
+d$     $$   z$$$e   $$     '$.   ░ ░░   ░ ▒░  ▒   ▒▒ ░░░▒ ▒ ░ ▒  ░   ░ ░░▒░ ░ ░ ░ ░ ▒  ░
+$P     `$L$$P` `"$$d$"      $$      ░   ░ ░   ░   ▒   ░ ░ ░ ░ ░░ ░   ░  ░░░ ░ ░   ░ ░   
+$$     e$$F       4$$b.     $$            ░       ░  ░  ░ ░          ░    ░         ░  ░
+$b  .$$" $$      .$$ "4$b.  $$                      ░
+$$e$P"    $b     d$`    "$$c$F   
+'$P$$$$$$$$$$$$$$$$$$$$$$$$$$     An ephemeral Atlantis-enabled fucking Proof-of-Work testnet for 
+ "$c.      4$.  $$       .$$      Ethereum Classic
+  ^$$.      $$ d$"      d$P    
+    "$$c.   `$b$F    .d$P"       
+      `4$$$c.$$$..e$$P"        
+          `^^^^^^^`
 ```
-A temporary Atlantis-enabled, fucking Proof-of-Work testnet for Ethereum Classic powered by [Whiteblock](www.whiteblock.io).
+POWERED BY [WHITEBLOCK](www.whiteblock.io)
 
 Atlantis Hardfork: `0`
 
