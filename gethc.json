@@ -12,7 +12,7 @@
         "difficulty":"0x020000",
         "mixhash":"0x00000000000000000000000000000000000000647572616c65787365646c6578",
         "coinbase":"0x0000000000000000000000000000000000000000",
-        "alloc": {"43bbf83df7b06f77fde76eb387f7263e23202d56":{"balance":"100000000000000000000"},"72572fe9aeac40ae7c5df53063508ee317ac5f9d":{"balance":"100000000000000000000"},"86bfb8d5305ed46e4adbd1e292f1b9aff7d38089":{"balance":"100000000000000000000"},"8cc05f714984278f9a7d4137d3841f3bc546971e":{"balance":"100000000000000000000"},"d88e3f1a1dd4612118413f787295bc81216f948f":{"balance":"100000000000000000000"},"f7b71ae667a319c14e4a742e7158226a70389e44":{"balance":"100000000000000000000"}},
+        "alloc": {"1d81879faabe8d44a684279df76944cd40e0f20a":{"balance":"100000000000000000000"},"9e3c6f78b572cb4fad3faf2acaff1608748f8341":{"balance":"100000000000000000000"},"a7fc7f3d347e8d33bf5169a746ebabf43a74770f":{"balance":"100000000000000000000"},"b6b377e0aa1d6a59fbf894d936fb534f770a3009":{"balance":"100000000000000000000"},"deda06f939cab5aeb3fb2fa1b9fd2ad4ef54ee84":{"balance":"100000000000000000000"},"fd557f8b461fd98d7518d9fe0ccaf5a4a68d45cc":{"balance":"100000000000000000000"}},
         "alloc_file":""
     },
     "chainConfig":{
@@ -93,6 +93,18 @@
                         "options":{
                             "era":2000000,
                             "type":"ecip1017"
+                        }
+                    }
+                ]
+            },
+            {
+                "name":"Atlantis",
+                "block":0,
+                "features":[
+                    {
+                        "id":"difficulty",
+                        "options":{
+                            "type":"atlantis"
                         }
                     }
                 ]
