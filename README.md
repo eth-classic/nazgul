@@ -1,7 +1,7 @@
 # The Nazgul Testnet
 
 [![Join the chat at https://gitter.im/eth-classic/nazgul](https://badges.gitter.im/eth-classic/nazgul.svg)](https://gitter.im/eth-classic/nazgul?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-```bash
+```
             ______               ███▄    █  ▄▄▄      ▒███████▒  ▄████  █    ██  ██▓    
        .d$$$******$$$$c.         ██ ▀█   █ ▒████▄    ▒ ▒ ▒ ▄▀░ ██▒ ▀█▒ ██  ▓██▒▓██▒    
     .d$P"            "$$c        ▓██  ▀█ ██▒▒██  ▀█▄  ░ ▒ ▄▀▒░ ▒██░▄▄▄░▓██  ▒██░▒██░   
@@ -14,7 +14,7 @@ $$     e$$F       4$$b.     $$            ░       ░  ░  ░ ░          �
 $b  .$$" $$      .$$ "4$b.  $$                      ░
 $$e$P"    $b     d$`    "$$c$F   
 '$P$$$$$$$$$$$$$$$$$$$$$$$$$$     An ephemeral Atlantis-enabled fucking Proof-of-Work testnet for 
- "$c.      4$.  $$       .$$      Ethereum Classic
+ "$c.      4$.  $$       .$$      Ethereum Classic and powered by the Whiteblock platform.
   ^$$.      $$ d$"      d$P    
     "$$c.   `$b$F    .d$P"       
       `4$$$c.$$$..e$$P"        
