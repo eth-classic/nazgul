@@ -1,43 +1,18 @@
 {
     "identity":"nazgul",
-    "name":"Nazgul Testnet",
-    "network":88,
+    "name":"nazgul",
+    "network":15468,
     "consensus":"ethash",
     "genesis":{
-        "nonce":"0x0000000000000539",
+        "nonce": "0x0000000000000539",
         "timestamp":"0x42",
         "parentHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
-        "extraData":"0xdeadbeefcafe1447",
-        "gasLimit":"0x2fefd8",
+        "extraData":"0xdeadbeefcafe1337",
+        "gasLimit":"0x3d0900",
         "difficulty":"0x020000",
         "mixhash":"0x00000000000000000000000000000000000000647572616c65787365646c6578",
-        "coinbase":"",
-        "alloc":{
-            "0000000000000000000000000000000000000001":{
-                "balance":"1"
-            },
-            "0000000000000000000000000000000000000002":{
-                "balance":"1"
-            },
-            "0000000000000000000000000000000000000003":{
-                "balance":"1"
-            },
-            "0000000000000000000000000000000000000004":{
-                "balance":"1"
-            },
-            "0000000000000000000000000000000000000005":{
-                "balance":"1"
-            },
-            "0000000000000000000000000000000000000006":{
-                "balance":"1"
-            },
-            "0000000000000000000000000000000000000007":{
-                "balance":"1"
-            },
-            "0000000000000000000000000000000000000008":{
-                "balance":"1"
-            }
-        },
+        "coinbase":"0x0000000000000000000000000000000000000000",
+        "alloc": {"43bbf83df7b06f77fde76eb387f7263e23202d56":{"balance":"100000000000000000000"},"72572fe9aeac40ae7c5df53063508ee317ac5f9d":{"balance":"100000000000000000000"},"86bfb8d5305ed46e4adbd1e292f1b9aff7d38089":{"balance":"100000000000000000000"},"8cc05f714984278f9a7d4137d3841f3bc546971e":{"balance":"100000000000000000000"},"d88e3f1a1dd4612118413f787295bc81216f948f":{"balance":"100000000000000000000"},"f7b71ae667a319c14e4a742e7158226a70389e44":{"balance":"100000000000000000000"}},
         "alloc_file":""
     },
     "chainConfig":{
@@ -45,7 +20,6 @@
             {
                 "name":"Homestead",
                 "block":0,
-                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"difficulty",
@@ -64,7 +38,6 @@
             {
                 "name":"GasReprice",
                 "block":0,
-                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"gastable",
@@ -77,26 +50,16 @@
             {
                 "name":"The DAO Hard Fork",
                 "block":0,
-                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
-                "features":[
-
-                ]
+                "features":[]
             },
             {
                 "name":"Diehard",
                 "block":0,
-                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"eip155",
                         "options":{
-                            "chainID":1337
-                        }
-                    },
-                    {
-                        "id":"gastable",
-                        "options":{
-                            "type":"eip160"
+                            "chainID":15468
                         }
                     },
                     {
@@ -109,9 +72,21 @@
                 ]
             },
             {
+                "name":"Diehardp2",
+                "block":0,
+                "features":[
+
+                    {
+                        "id":"gastable",
+                        "options":{
+                            "type":"eip160"
+                        }
+                    }
+                ]
+            },
+            {
                 "name":"Gotham",
                 "block":0,
-                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"reward",
@@ -121,38 +96,9 @@
                         }
                     }
                 ]
-            },
-            {
-                "name":"Defuse Difficulty Bomb",
-                "block":0,
-                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
-                "features":[
-                    {
-                        "id":"difficulty",
-                        "options":{
-                            "type":"defused"
-                        }
-                    }
-                ]
-            },
-            {
-                "name":"Atlantis",
-                "block":0,
-                "features":[
-                    {
-                        "id":"difficulty",
-                        "options":{
-                            "type":"atlantis"
-                        }
-                    }
-                ]
             }
         ],
-        "badHashes":[
-
-        ]
+        "badHashes":[]
     },
-    "bootstrap":[
-    ],
     "include":null
 }
