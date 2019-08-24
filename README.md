@@ -1,7 +1,7 @@
 # Nazgul testnet
 
 [![Join the chat at https://gitter.im/eth-classic/nazgul](https://badges.gitter.im/eth-classic/nazgul.svg)](https://gitter.im/eth-classic/nazgul?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+```bash
  ███▄    █  ▄▄▄      ▒███████▒  ▄████  █    ██  ██▓    
  ██ ▀█   █ ▒████▄    ▒ ▒ ▒ ▄▀░ ██▒ ▀█▒ ██  ▓██▒▓██▒    
 ▓██  ▀█ ██▒▒██  ▀█▄  ░ ▒ ▄▀▒░ ▒██░▄▄▄░▓██  ▒██░▒██░    
@@ -12,7 +12,7 @@
    ░   ░ ░   ░   ▒   ░ ░ ░ ░ ░░ ░   ░  ░░░ ░ ░   ░ ░   
          ░       ░  ░  ░ ░          ░    ░         ░  ░
                      ░                                 
-
+```
 A temporary Atlantis-enabled, fucking Proof-of-Work testnet for Ethereum Classic powered by [Whiteblock](github.com/whiteblock).
 
 Atlantis Hardfork: `0`
