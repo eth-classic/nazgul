@@ -13,7 +13,7 @@
               "ecip1010ContinueTransition":2000000,
               "ecip1017EraRounds":2000000,
               "bombDefuseTransition":"0x0",
-              "eip100bTransition":100
+              "eip100bTransition":0
             }
         }
     },
@@ -29,26 +29,26 @@
         "parentHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
         "extraData":"0xdeadbeefcafe1337",
         "difficulty":"0x20000",
-        "gasLimit":"0x3d0900"
+        "gasLimit":"0x2fefd8"
     },
     "params":{
-            "networkID":15468,
-            "chainID":15468,
+            "networkID":88,
+            "chainID":1447,
             "maximumExtraDataSize":"0x20",
             "minGasLimit":"0x1388",
             "gasLimitBoundDivisor":"0x400",
             "accountStartNonce":"0x00",
-            "eip140Transition":100,
+            "eip140Transition":0,
             "eip150Transition":0,
             "eip155Transition":0,
             "eip160Transition":0,
-            "eip161abcTransition":100,
-            "eip161dTransition":100,
-            "eip211Transition":100,
-            "eip214Transition":100,
-            "eip658Transition":100,
+            "eip161abcTransition":0,
+            "eip161dTransition":0,
+            "eip211Transition":0,
+            "eip214Transition":0,
+            "eip658Transition":0,
             "maxCodeSize":"0x6000",
-            "maxCodeSizeTransition":100
+            "maxCodeSizeTransition":0
     },
-    "accounts": {"0x1d81879faabe8d44a684279df76944cd40e0f20a":{"balance":"100000000000000000000"},"0x9e3c6f78b572cb4fad3faf2acaff1608748f8341":{"balance":"100000000000000000000"},"0xa7fc7f3d347e8d33bf5169a746ebabf43a74770f":{"balance":"100000000000000000000"},"0xb6b377e0aa1d6a59fbf894d936fb534f770a3009":{"balance":"100000000000000000000"},"0xdeda06f939cab5aeb3fb2fa1b9fd2ad4ef54ee84":{"balance":"100000000000000000000"},"0xfd557f8b461fd98d7518d9fe0ccaf5a4a68d45cc":{"balance":"100000000000000000000"}}
+    "accounts": {"0x78917a33afc0edf7eaafd2638de764822c6ec2c3":{"balance":"1000000000000000000000000000"},"0x84667b856a2f27eeb53fa4f94acb3e2da640f779":{"balance":"1000000000000000000000000000"},"0x85bfb50a2609c8bc38e6d6f70fded2141665616b":{"balance":"1000000000000000000000000000"},"0xa12930b531100776e1bd4e1ff166c6fdf5e3b112":{"balance":"1000000000000000000000000000"},"0xa51ba9984156d74ec6bccfde7b322596a7707d65":{"balance":"1000000000000000000000000000"},"0xcb5231efdb45ad48a42e24c6e955a479b18270ce":{"balance":"1000000000000000000000000000"}}
 }

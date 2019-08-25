@@ -1,18 +1,18 @@
 {
     "identity":"nazgul",
     "name":"nazgul",
-    "network":15468,
+    "network":88,
     "consensus":"ethash",
     "genesis":{
-        "nonce": "0x0000000000000539",
+        "nonce":"0x0000000000000539",
         "timestamp":"0x42",
         "parentHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
         "extraData":"0xdeadbeefcafe1337",
-        "gasLimit":"0x3d0900",
+        "gasLimit":"0x2fefd8",
         "difficulty":"0x020000",
         "mixhash":"0x00000000000000000000000000000000000000647572616c65787365646c6578",
-        "coinbase":"0x0000000000000000000000000000000000000000",
-        "alloc": {"1d81879faabe8d44a684279df76944cd40e0f20a":{"balance":"100000000000000000000"},"9e3c6f78b572cb4fad3faf2acaff1608748f8341":{"balance":"100000000000000000000"},"a7fc7f3d347e8d33bf5169a746ebabf43a74770f":{"balance":"100000000000000000000"},"b6b377e0aa1d6a59fbf894d936fb534f770a3009":{"balance":"100000000000000000000"},"deda06f939cab5aeb3fb2fa1b9fd2ad4ef54ee84":{"balance":"100000000000000000000"},"fd557f8b461fd98d7518d9fe0ccaf5a4a68d45cc":{"balance":"100000000000000000000"}},
+        "coinbase":"",
+        "alloc":{"78917a33afc0edf7eaafd2638de764822c6ec2c3":{"balance":"1000000000000000000000000000"},"84667b856a2f27eeb53fa4f94acb3e2da640f779":{"balance":"1000000000000000000000000000"},"85bfb50a2609c8bc38e6d6f70fded2141665616b":{"balance":"1000000000000000000000000000"},"a12930b531100776e1bd4e1ff166c6fdf5e3b112":{"balance":"1000000000000000000000000000"},"a51ba9984156d74ec6bccfde7b322596a7707d65":{"balance":"1000000000000000000000000000"},"cb5231efdb45ad48a42e24c6e955a479b18270ce":{"balance":"1000000000000000000000000000"}},
         "alloc_file":""
     },
     "chainConfig":{
@@ -20,6 +20,7 @@
             {
                 "name":"Homestead",
                 "block":0,
+                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"difficulty",
@@ -38,6 +39,7 @@
             {
                 "name":"GasReprice",
                 "block":0,
+                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"gastable",
@@ -50,16 +52,26 @@
             {
                 "name":"The DAO Hard Fork",
                 "block":0,
-                "features":[]
+                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
+                "features":[
+
+                ]
             },
             {
                 "name":"Diehard",
                 "block":0,
+                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"eip155",
                         "options":{
-                            "chainID":15468
+                            "chainID":1447
+                        }
+                    },
+                    {
+                        "id":"gastable",
+                        "options":{
+                            "type":"eip160"
                         }
                     },
                     {
@@ -72,27 +84,28 @@
                 ]
             },
             {
-                "name":"Diehardp2",
-                "block":0,
-                "features":[
-
-                    {
-                        "id":"gastable",
-                        "options":{
-                            "type":"eip160"
-                        }
-                    }
-                ]
-            },
-            {
                 "name":"Gotham",
                 "block":0,
+                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
                 "features":[
                     {
                         "id":"reward",
                         "options":{
                             "era":2000000,
                             "type":"ecip1017"
+                        }
+                    }
+                ]
+            },
+            {
+                "name":"Defuse Difficulty Bomb",
+                "block":0,
+                "requiredHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
+                "features":[
+                    {
+                        "id":"difficulty",
+                        "options":{
+                            "type":"defused"
                         }
                     }
                 ]
@@ -110,7 +123,11 @@
                 ]
             }
         ],
-        "badHashes":[]
+        "badHashes":[
+
+        ]
     },
+    "bootstrap":[
+    ],
     "include":null
 }
