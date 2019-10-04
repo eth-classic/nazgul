@@ -1,3 +1,7 @@
+**Update 10/2019** -- Nazgul has been replaced by **Mordor**: https://github.com/eth-classic/mordor
+
+---
+
 # Nazgul testnet
 
 [![Join the chat at https://gitter.im/eth-classic/nazgul](https://badges.gitter.im/eth-classic/nazgul.svg)](https://gitter.im/eth-classic/nazgul?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
